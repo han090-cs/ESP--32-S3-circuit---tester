@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="100%" height="100%" fill="#f7f7f7"/>
+<text x="40" y="45" font-family="Arial" font-size="28" font-weight="bold">ESP32-S3 Circuit Tester — No TFT</text>
+<rect x="50" y="90" width="260" height="150" rx="16" fill="#e8eef7" stroke="#333"/>
+<text x="80" y="130" font-family="Arial" font-size="22" font-weight="bold">DC / Battery Input</text>
+<text x="80" y="165" font-family="Arial" font-size="18">TEST_V+ → 22kΩ</text>
+<text x="80" y="195" font-family="Arial" font-size="18">4.7kΩ → GND</text>
+<rect x="390" y="90" width="270" height="150" rx="16" fill="#eaf4ea" stroke="#333"/>
+<text x="425" y="130" font-family="Arial" font-size="22" font-weight="bold">ESP32-S3</text>
+<text x="425" y="165" font-family="Arial" font-size="18">GPIO4 = Voltage ADC</text>
+<text x="425" y="195" font-family="Arial" font-size="18">GPIO5 = Continuity Drive</text>
+<text x="425" y="225" font-family="Arial" font-size="18">GPIO6 = Continuity Sense</text>
+<line x1="310" y1="165" x2="390" y2="165" stroke="#222" stroke-width="3"/>
+<polygon points="390,165 378,158 378,172" fill="#222"/>
+<rect x="710" y="90" width="230" height="150" rx="16" fill="#fff0e6" stroke="#333"/>
+<text x="740" y="130" font-family="Arial" font-size="22" font-weight="bold">Phone / Laptop</text>
+<text x="740" y="165" font-family="Arial" font-size="18">Wi-Fi AP</text>
+<text x="740" y="195" font-family="Arial" font-size="18">http://192.168.4.1</text>
+<line x1="660" y1="165" x2="710" y2="165" stroke="#222" stroke-width="3"/>
+<polygon points="710,165 698,158 698,172" fill="#222"/>
+<rect x="120" y="340" width="760" height="190" rx="18" fill="#fff" stroke="#333"/>
+<text x="155" y="380" font-family="Arial" font-size="22" font-weight="bold">Continuity Port — UNPOWERED DUT ONLY</text>
+<text x="155" y="425" font-family="Arial" font-size="19">GPIO5 ── 1kΩ ── CONT+ ── DUT ── GND</text>
+<text x="155" y="465" font-family="Arial" font-size="19">CONT+ ───────────────── GPIO6 (sense)</text>
+<text x="155" y="505" font-family="Arial" font-size="18">OPEN = HIGH • Conductive path to GND = LOW / CONTINUITY</text>
+</svg>
